@@ -434,4 +434,8 @@ public class QuickScroll extends View {
         return pinLayout;
     }
 
+    public void setScrollPosition(int position) {
+        listView.setSelection(position);
+    }
+
 }
